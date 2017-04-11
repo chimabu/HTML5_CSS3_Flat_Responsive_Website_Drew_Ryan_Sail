@@ -1,0 +1,170 @@
+/*import the google font for the webpage*/
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+/*reset style - applicable under all the doc*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background:#f5f5f5;
+  color: #67727A;
+  font-family: 'ALEGREYA',sans-serif;
+  margin: 0;
+}
+
+h2{
+  font-size: 250%;
+  font-weight:900%; /*gives the boldness other than h1/h2/h3 */
+  text-align: center;
+  padding-top: 2%
+}
+
+h3{
+  font-size: 175%;
+  line-height: 155%;
+  padding: 3% 0; /*padding top and bottom */
+  font-weight: 400;/*gives the boldness other than h1/h2/h3 */
+}
+
+p{
+  font-size: 160%;
+  line-height: 150%;
+  padding:3%;
+  text-indent: 2%;
+  text-align: justify;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: -4px;/* negative value helps create the space between the text & image to align perfectly*/
+}
+
+
+header{
+  background-color: #6991AC;
+  width: 100%;
+  height: 100%;
+}
+
+/*use hash to define the css for the tag ID */
+#header-inner{
+max-width: 1200px;
+margin: 0 auto; /*zero margin on the top and the center within the container (tag) */
+}
+
+#logo{
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 60px;
+  background: url(img/RD.png) no-repeat center;  /*to add the logo image (should be PNG with tranparent backgroudn to have the same color as bg) */
+}
+
+/*---Start Navigation--- (rework for the backgroud colow along with the header/ header-inner css)*/
+nav{
+  padding: 25px 20px 0 0;
+  float: right;
+}
+
+#menu-icon{
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: url(img/nav.png) center; /* 3 line for the menu drop down for the mobile view*/
+}
+
+a:hover#menu-icon{
+  border-radius: 4px 4px 0 0;
+}
+
+ul{
+  list-style: none;
+}
+
+nav ul li{
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 150%;
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
+
+
+nav ul li a{
+  color: blue;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: green;
+}
+
+.current{
+  color:green;
+}
+
+/* End Navigation CSS*/
+
+.banner{
+  width: 100%;
+  background-color: #6991AC
+}
+
+/*resize the image */
+.banner-inner{
+  max-width: 1100px;
+  margin:0 auto; /*center the image*/
+}
+
+.one-forth{
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+#html{
+  background-color:#f1aa90;
+}
+#css{
+  background-color: #BEB9ad;
+}
+#seo{
+  background-color: #AADCD2;
+}
+#social{
+  background-color: #A2B2c1;
+}
+
+.one-forth i{
+  color: #f0f0f0;
+  font-size: 500%;
+  padding: 13% 0 4% 0;
+}
+
+.inner-wrapper{
+  float: left;
+  width: 100%;
+  background-color: #C3d7df;
+}
+
+article{
+  float: left;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
+#tablet{
+  background-color: #C3d7df;
+}
+aside{
+  float: right;
+  margin: 0 auto;
+  width: 50%;
+  height: 100%;
+}
