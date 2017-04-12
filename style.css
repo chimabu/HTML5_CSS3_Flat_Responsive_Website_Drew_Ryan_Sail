@@ -263,7 +263,7 @@ footer.second p{
 
 /*---------------- media query----------- */
 
-@media screen and (max-widht: 768px) {
+@media (max-widht:768px) {
   h2{
     font-size: 150%;
   }
